@@ -3,11 +3,11 @@ package br.padroes.mediator;
 public class Cliente {
 	public static void main(String[] args) {
 		MensagemMediator mediador = new MensagemMediator();
-
+	
 		AndroidColleague android = new AndroidColleague(mediador);
 		IOSColleague ios = new IOSColleague(mediador);
 		SymbianColleague symbian = new SymbianColleague(mediador);
-
+	
 		mediador.adicionarColleague(android);
 		mediador.adicionarColleague(ios);
 		mediador.adicionarColleague(symbian);
