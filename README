@@ -50,3 +50,6 @@ Transformando requisições em objetos!
 
 Memento
 Externalizando estados sem quebrar o encapsulamento!
+
+Flyweight
+Compartilhando pequenos recursos para economizar espaço!
