@@ -4,6 +4,9 @@ public class ExibirIndentadoVisitor implements ArvoreVisitor {
 
 	@Override
 	public void visitar(No no) {
+		if (no == null) {
+			return;
+		}
 		System.out.println(no);
 		visitar(no.getEsquerdo(), 1);
 		visitar(no.getDireito(), 1);
