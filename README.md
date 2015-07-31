@@ -1,6 +1,6 @@
 Neste repositório existem exemplos de utilização de Padrões de Projeto documentados pela Gangue dos Quatro implementados em Java.
 
-Para saber mais informações sobre os problemas abordados em cada um dos projetos veja o site: brizeno.wordpress.com/padroes
+Para saber mais informações sobre os problemas abordados em cada um dos projetos acesse: [brizeno.wordpress.com/padroes](https://brizeno.wordpress.com/padroes/)
 
 __Padrões implementados:__
 
