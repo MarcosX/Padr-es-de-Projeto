@@ -13,18 +13,18 @@ public class Funcionario {
 		switch (cargo) {
 		case DESENVOLVEDOR:
 			estrategiaDeCalculo = new CalculoImpostoQuinzeOuDez();
-			cargo = DESENVOLVEDOR;
+			this.cargo = DESENVOLVEDOR;
 			break;
 		case DBA:
 			estrategiaDeCalculo = new CalculoImpostoQuinzeOuDez();
-			cargo = DBA;
+			this.cargo = DBA;
 			break;
 		case GERENTE:
 			estrategiaDeCalculo = new CalculoImpostoVinteOuQuinze();
-			cargo = GERENTE;
+			this.cargo = GERENTE;
 			break;
 		default:
-			throw new RuntimeException("Cargo n„o encontrado :/");
+			throw new RuntimeException("Cargo n√£o encontrado :/");
 		}
 	}
 
